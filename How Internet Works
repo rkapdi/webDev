@@ -1,0 +1,9 @@
+Internet: global network of computers
+Each comp has IP address
+Comps talk to each other using TCP/IP protocol
+HTTP handles web traffic (req/res)
+websites/webpages are files stored on computer that run sofware called webserver
+Apacehe, Nginx are server exmaples.
+Hosting companies provide servers for websites
+Domain names purchased from registrars and linked to hosting account/web server
+DNS used to map IP address to domain names
