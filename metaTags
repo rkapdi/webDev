@@ -1,0 +1,13 @@
+metatags are not seen by anyone, they describe the properties of the elements.
+
+viewport tag:	makes the website responsieve
+http-equiv:	browser compatibility
+
+serch engine metatags:
+
+<title>:	used for browser search.
+<description>:	describe the site.
+<keywords>:	give 8-10 keywords related to your site.
+
+If you do not want site to show up in search engines:
+<meta name="robots" content="NOINDEX, NOFOLLOW">

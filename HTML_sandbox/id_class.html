@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Id vs Class -->
+<!-- Ids and Classes have no functional difference -->
+<!-- Dont repeat IDs on the same page atleast, classes can be repeated -->
+
+<!-- Div vs Span -->
+<!-- Div is a block level element, span is inline-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div, Span, id and Class</title>
+    <style>
+        .card {
+            border: 1px solid #ccc;
+            background: #f4f4f4;
+            padding: 20px;
+            margin-bottom: 10px;
+        }
+
+        .enhance {
+            color:yellow;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="main header">
+        <h1>The site to party</h1>
+        <p>A forum for tough times</p>
+    </div>
+    <ul id="main-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+    <!-- shrtcut: div#about // #about-->
+    <div id="about" class="card">
+        <h3>About</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti temporibus voluptatum id, vitae unde iure dolore<span class="enhance"> molestiae possimus perspiciatis, dignissimos commodi magnam expedita? Omnis repudiandae ullam rem officia</span> laboriosam nesciunt.</p>
+    </div>
+
+    <div id="contact" class="card">
+        <h3>Contact Me</h3>
+        <ul>
+            <li>Address: 3993 Wolf St</li>
+            <li>Victoria, BC</li>
+            <li>Email: riss.ak@hotmail.com</li>
+        </ul>
+    </div>
+    <div id="footer">
+        <p>Copyright 2020 &copy</p>
+    </div>
+</body>
+</html>

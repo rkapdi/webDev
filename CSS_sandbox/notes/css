@@ -1,0 +1,6 @@
+
+	
+	
+Format: a declaration end>{background-color: yellow ;} < declaration end
+	^	^property  ^ ^value ^declaration seperator 	
+	Selector	Property Val/Seperator
