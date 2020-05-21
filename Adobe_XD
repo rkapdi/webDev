@@ -1,0 +1,5 @@
+1. Design for modern UI
+  - Set margins on L & R to have empty space.
+   GRID:
+    - Col: 2    - Grid Width: 1140    - Col Width: 130    - Set last num to 0
+    
