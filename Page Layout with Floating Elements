@@ -1,0 +1,55 @@
+Page Layout Designs
+ four general categories: fixed, fluid, elastic, and responsive
+ 
+ fixed 
+ page size and page elements are fixed
+ best used in circumstances when we know the exact device that would be used to view the web page
+ 
+ Fluid 
+ dynamic effect where the page resizes automatically to fit the screen resolution of the user’s device
+ 
+ Elastic 
+ layout is where all CSS measurements are expressed in em units and 
+ based on the default font size that is used in the page
+ 
+ Responsive 
+ preferred option for page layout
+ page automatically accommodates to the user screen size
+ web developer would need to create separate styles for mobile devices, tablet devices, and desktop computers
+ 
+ Working with Width and Height
+  Often, the height of an element is not set, 
+  since browsers automatically increase the height of an element to match its content
+  
+  Floating Page Content
+  float attribute can be used to move an element from its normal position and 
+  place it along the left or right edge of its parent element
+   By default, an element has no float
+   float can be cleared by setting the clear property to none (the default), left, right, or both left and right.
+   To keep float elements within the same row, the correct box-sizing property must be used
+   The default is content-box for the type, while the other is border-box
+    border-box type is preferred by most designers to avoid any confusion about the total width of each element
+    Failing to specify the box-sizing property might result in having web page elements collapse
+    
+    
+    img {
+  float: right;
+}
+<img src="pineapple.jpg" alt="Pineapple" style="width:170px;height:170px;margin-left:15px;">
+
+
+Horizontal & Vertical Align
+https://www.w3schools.com/css/css_align.asp
+To horizontally center a block element (like <div>), use margin: auto;
+Setting the width of the element will prevent it from stretching out to the edges of its container.
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+
+The element will then take up the specified width, and the remaining space will be split equally between the two margins
+
+
